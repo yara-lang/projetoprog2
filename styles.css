@@ -1,0 +1,65 @@
+/* Resetando margens e paddings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: cadetblue;
+    color: cornflowerblue;
+    line-height: 1.6;
+}
+
+header{
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul{
+list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section{
+    padding: 20px;
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+form input[type="submit"]{
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"]{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+    background-color: aqua;
+}
